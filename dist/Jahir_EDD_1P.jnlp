@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Jahir_EDD_1P.jnlp">
+  <information>
+    <title>Jahir_EDD_1P</title>
+    <vendor>Margarita Chavez</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Jahir_EDD_1P.jar" size="16341" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Jahir_EDD_1P" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="juego.Juego"  name="Jahir_EDD_1P" />
+  <update check="always"/>
+</jnlp>
